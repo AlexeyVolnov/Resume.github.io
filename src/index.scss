@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contain {
+  padding: 20px;
+}
+
+.slick-next {
+  right: 10px;
+  z-index: 99;
+}
+
+.slick-prev {
+  z-index: 99;
+  left: 10px;
+}
