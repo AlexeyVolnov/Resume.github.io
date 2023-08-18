@@ -10,10 +10,32 @@
     gap: 8px;
     align-items: center;
 
+    a {
+      display: flex;
+      gap: 5px;
+    }
 
     img {
+
       width: 20px;
     }
   }
 }
 
+@media not all and (min-width: 1280px) {
+  .profile_social_links {
+
+    li {
+      a {
+        p {
+           display: none;
+        }
+      }
+
+      img {
+        width: 50px;
+      }
+    }
+  }
+
+}
