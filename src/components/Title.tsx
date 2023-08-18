@@ -1,6 +1,7 @@
 import {FC, ReactNode} from "react";
 
 
+
 interface ITitleProps {
 children:ReactNode
 }
@@ -12,6 +13,7 @@ const Title: FC<ITitleProps> = ({children}) => {
        {children}
        <hr className={'bg-[#2a384b] h-[2px] w-full my-5'}/>
      </div>
+
   )
 }
 

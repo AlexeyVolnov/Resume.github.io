@@ -5,7 +5,9 @@
 .contain {
   padding: 20px;
 }
-
+* *{
+  transition: all 1s ease;
+}
 .slick-next {
   right: 10px;
   z-index: 99;

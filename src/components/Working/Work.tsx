@@ -14,8 +14,6 @@ const Work: FC<IWorkProps> = ({}) => {
        <div className={'flex flex-col gap-1'}>
          <Title><h5>WORK Experience</h5></Title>
          <WorkItem/>
-         <WorkItem/>
-         <WorkItem/>
        </div>
   )
 }

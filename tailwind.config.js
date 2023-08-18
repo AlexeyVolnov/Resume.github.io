@@ -8,7 +8,7 @@ export default {
     extend: {
       backgroundImage:{
         'logo': "url('./image/sidebar-bg.png')"
-      }
+      },
     },
   },
   plugins: [],
