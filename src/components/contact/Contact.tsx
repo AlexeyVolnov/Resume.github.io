@@ -17,14 +17,14 @@ const Contact: FC<IContactProps> = ({}) => {
 
 
   return (
-     <div className={"w-full h-[300px]  min-w-[200px] rounded text-blue-50 bg-logo bg-no-repeat bg-cover"}>
-       <div className={'w-full h-full px-10 rounded grid grid-cols-[1fr,2fr]  items-center  bg-gray-800 bg-opacity-70'}>
+     <div className={"w-full h-fit min-w-[200px] rounded text-blue-50 bg-logo bg-no-repeat bg-cover"}>
+       <div className={'w-full h-full py-5 max-lg:py-10 px-10 max-lg:grid-cols-1 rounded grid grid-cols-[1fr,2fr]  items-center  bg-gray-800 bg-opacity-70'}>
 
-         <div className={'image-profile flex px-5 py-5'}>
+         <div className={'image-profile max-lg:justify-center flex px-5 py-5'}>
            <SidebarSlider/>
          </div>
 
-         <div className="profile_info justify-between max-xl:items-center max-xl:flex-col flex-1 flex px-3">
+         <div className="profile_info items-center justify-between max-xl:items-center max-xl:flex-col flex-1 flex px-3">
            <div>
              <h3 className={'text-4xl mb-3'}>Вольнов Алексей</h3>
              <p className={'opacity-80 pl-3 text-2xl'}>Frontend Developer</p>

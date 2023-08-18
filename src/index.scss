@@ -16,4 +16,11 @@
 .slick-prev {
   z-index: 99;
   left: 10px;
+
+}
+.slick-next,.slick-prev{
+  opacity: 50%;
+}
+.slick-next:hover,.slick-prev:hover{
+  opacity: 80%;
 }

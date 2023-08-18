@@ -17,12 +17,13 @@ const WorkLineItem: FC<IWorkLineItem> = ({startDate, finalDate}) => (
       foregroundColor="#ecd4d4"
    >
 
-     <rect x="20" y="0" rx="0" ry="0" width="3" height="283"/>
+     <rect x="20" y="0" rx="0" ry="0" width="3" height="283" />
      <circle cx="22" cy="40" r="6"/>
      <circle cx="22" cy="260" r="6"/>
-     <rect width='100' opacity={0.1} x='40' y="5" cx="80" cy="50" ry="5" height='70'></rect>
-     <text x={70} y={55} color="black" fontWeight="bold">{startDate}</text>
-     <text x={70} y={30} color="black" fontWeight="bold">{finalDate}</text>
+     <rect width='100' opacity={0.1} x='40' y="5" cx="80" cy="50" ry="5" height='60'></rect>
+     <text x={70} y={257} color="black" fontWeight="bold">{startDate}</text>
+     <rect width='100' opacity={0.1} x='40' y="220" cx="80" cy="50" ry="5" height='60'></rect>
+     <text x={70} y={40} color="black" fontWeight="bold">{finalDate}</text>
 
    </ContentLoader>
 )

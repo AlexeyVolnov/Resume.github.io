@@ -13,7 +13,7 @@ function App() {
        <Sidebar/>
        <div className={'contain'}>
          <div className={'content'}>
-           <div className={'grid grid-cols-[2fr,1fr]  pt-10 gap-5'}>
+           <div className={'grid grid-cols-[2fr,1fr] max-xl:grid-cols-[1fr]  pt-10 gap-5'}>
              <Work/>
              <Skills/>
            </div>

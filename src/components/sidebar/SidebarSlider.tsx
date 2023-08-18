@@ -18,7 +18,7 @@ const SidebarSlider: FC<ISidebarSliderProps> = ({}) => {
 
   }
   return (
-     <div className={'w-80 h-full'}>
+     <div className={'w-80  h-full'}>
        <Slider {...settings}>
          {images.map(slide=><div key={slide} className={'h-[200px]'}><img className={'object-cover'} src={String(slide)} alt=""/></div>)}
        </Slider>
