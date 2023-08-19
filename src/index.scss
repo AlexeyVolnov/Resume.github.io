@@ -24,3 +24,35 @@
 .slick-next:hover,.slick-prev:hover{
   opacity: 80%;
 }
+
+.appContainer{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.app{
+  max-width: 1200px;
+  margin:  0 auto;
+}
+
+
+@media not all and (min-width: 870px){
+  .appContainer{
+    padding-top: 20px;
+
+  }
+  .contain{
+    padding: 30px;
+  }
+}
+@media not all and (min-width: 500px){
+
+  .appContainer{
+    padding-top: 0;
+
+  }
+  .contain{
+    padding: 10px;
+  }
+}

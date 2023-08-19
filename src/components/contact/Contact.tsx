@@ -24,10 +24,10 @@ const Contact: FC<IContactProps> = ({}) => {
            <SidebarSlider/>
          </div>
 
-         <div className="profile_info items-center justify-between max-xl:items-center max-xl:flex-col flex-1 flex px-3">
+         <div className="profile_info items-center max-lg:py-5 justify-between max-xl:items-center max-xl:flex-col flex-1 flex px-3">
            <div>
              <h3 className={'text-4xl mb-3'}>Вольнов Алексей</h3>
-             <p className={'opacity-80 pl-3 text-2xl'}>Frontend Developer</p>
+             <p className={'opacity-80 pl-3 text-center text-2xl'}>Frontend Developer</p>
            </div>
            <ul className={`${style.profile_social_links} justify-self-end max-xl max-xl:flex-row max-xl:mt-10`}>
              <li>

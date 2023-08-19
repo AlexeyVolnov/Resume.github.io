@@ -1,13 +1,13 @@
 import ContentLoader from "react-content-loader"
 import {FC} from "react";
 
-interface IWorkLineItem {
+interface IDateLine {
   startDate: number,
   finalDate: number
 }
 
 
-const WorkLineItem: FC<IWorkLineItem> = ({startDate, finalDate}) => (
+const DateLine: FC<IDateLine> = ({startDate, finalDate}) => (
    <ContentLoader
       speed={7}
       width={150}
@@ -28,4 +28,4 @@ const WorkLineItem: FC<IWorkLineItem> = ({startDate, finalDate}) => (
    </ContentLoader>
 )
 
-export default WorkLineItem
+export default DateLine
