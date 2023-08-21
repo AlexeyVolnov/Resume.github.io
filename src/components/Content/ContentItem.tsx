@@ -20,7 +20,7 @@ const ContentItem: FC<IContentItemProps> = ({item}) => {
            <h4 className={'font-bold text-2xl text-[#2b384a] py-3.5'}>{item.Title}</h4>
            <p className={'smallDate'}>C {item.startDate} по {item.finalDate} г.</p>
            <p>{item.nameOrganization}</p>
-           <p className={'py-5 text-gray-700 font-thin'}>{item.Text}</p>
+           <p className={'py-5 text-gray-950 font-thin'}>{item.Text}</p>
          </div>
        </div>
   )
