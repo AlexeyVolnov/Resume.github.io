@@ -18,13 +18,13 @@ const [activeLink,setActiveLink] = useState(true)
 
   return (
 
-       <div className={'flex flex-col gap-10'}>
-         <div className={'flex gap-5'}>
+       <div className={'flex flex-col gap-5'}>
+         <div className={'flex gap-5 items-end '}>
            <div onClick={()=>setActiveLink(true)} className={'basis-1/2 select-none'}>
-             <Title><h5 className={`${activeLink && 'text-gray-900'}`}>Опыт работы</h5></Title>
+             <Title><h5 className={`${activeLink && 'text-gray-900'} category`}>Опыт работы</h5></Title>
            </div>
            <div onClick={()=>setActiveLink(false)} className={'basis-1/2 select-none'}>
-             <Title><h5 className={`${!activeLink && 'text-gray-900'}`}>Образование</h5></Title>
+             <Title><h5 className={`${!activeLink && 'text-gray-900'} category`}>Образование</h5></Title>
            </div>
          </div>
          <div className={'content'}>

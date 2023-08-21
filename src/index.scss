@@ -35,7 +35,9 @@
   max-width: 1400px;
   margin:  0 auto;
 }
-
+.smallDate{
+  display: none;
+}
 
 @media not all and (min-width: 870px){
   .appContainer{
@@ -52,6 +54,19 @@
   .line{
     width: 30px;
   }
+  .category{
+   font-size: 19px;
+  }
+
+.smallDate{
+  display: block;
+  padding-bottom: 5px;
+}
+
+
+
+
+
 }
 @media not all and (min-width: 500px){
 
@@ -62,4 +77,14 @@
   .contain{
     padding: 10px;
   }
+}
+@media not all and (min-width: 460px){
+   .sliderContainer{
+     @apply w-72
+  }
+
+    .slick-dots{
+      bottom: -10px;
+    }
+
 }

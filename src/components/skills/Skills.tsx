@@ -14,7 +14,7 @@ const skills = [
    },
   {
     Name:'CSS/SCSS',
-    progress: 80
+    progress: 90
   },
   {
     Name:'css-modules',
@@ -50,7 +50,7 @@ const skills = [
   },
   {
     Name:'gulp',
-    progress: 50
+    progress: 70
   },
   {
     Name:'webpack',
@@ -74,7 +74,7 @@ const skills = [
 const Skills: FC<ISkillsProps> = ({}) => {
   return (
      <div className={''}>
-       <Title><p className={'text-gray-900'}>Skills & Tools</p></Title>
+       <Title><p className={'text-gray-900'}>Навыки и инструменты</p></Title>
        <div className={'grid grid-cols-3 items-center justify-center] max-xl:grid-cols-3 max-sm:grid-cols-1  gap-x-5 gap-y-3'}>
          {skills.map(skill=><SkillsItem key={skill.Name} nameSkill={skill.Name.toUpperCase()} progressSkill={skill.progress}/>)}
        </div>

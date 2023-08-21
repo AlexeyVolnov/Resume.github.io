@@ -10,7 +10,7 @@ interface IAboutProps {
 const About: FC<IAboutProps> = ({}) => {
   return (
      <div>
-       <div className={'aboutMy'}>
+       <div className={'aboutMy mt-10'}>
          <Title><h5>Обо мне</h5></Title>
          с 2022 года работаю на фрилансе/надоело искать заказы хочу уделить все время разработке,
          Если коротко о себе работал в газпроме инженер-программист занимался всем чем скажут от серверов

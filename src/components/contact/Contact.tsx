@@ -26,7 +26,7 @@ const Contact: FC<IContactProps> = ({}) => {
 
          <div className="profile_info items-center max-lg:py-5 justify-between max-xl:items-center max-xl:flex-col flex-1 flex px-3">
            <div>
-             <h3 className={'text-4xl mb-3'}>Вольнов Алексей</h3>
+             <h3 className={'text-4xl mb-3 text-center'}>Вольнов Алексей</h3>
              <p className={'opacity-80 pl-3 text-center text-2xl'}>Frontend Developer</p>
            </div>
            <ul className={`${style.profile_social_links} justify-self-end max-xl max-xl:flex-row max-xl:mt-10`}>
@@ -37,16 +37,19 @@ const Contact: FC<IContactProps> = ({}) => {
                </a>
              </li>
              <li>
-                 <a href="mailto:volnovalexy@yandex.ru?subject=По поводу работы"
-                    target={'_blank'}>
-                   <img src={gmail} alt=""/>
-                   <p>volnovalexy@yandex.ru</p>
-                 </a>
+               <a
+                  href="mailto:volnovalexy@yandex.ru?subject=По поводу работы"
+                  target={'_blank'}>
+                 <img src={gmail} alt=""/>
+                 <p>volnovalexy@yandex.ru</p>
+               </a>
              </li>
              <li>
                <a
                   href="https://vk.com/id149472054"
-                  target={'_blank'}><img src={vk} alt=""/><p>https://vk.com/id149472054</p></a>
+                  target={'_blank'}><img src={vk} alt=""/>
+                 <p>https://vk.com/id149472054</p>
+               </a>
              </li>
              <li>
                <a target={'_blank'} href="https://t.me/Alex_Volnov1995?text=Здравствуйте Алексей">
@@ -59,7 +62,8 @@ const Contact: FC<IContactProps> = ({}) => {
                   href="https://github.com/AlexeyVolnov"
                   target={'_blank'}>
                  <img src={github} alt=""/>
-                 <p>https://github.com/AlexeyVolnov</p></a>
+                 <p>https://github.com/AlexeyVolnov</p>
+               </a>
              </li>
            </ul>
          </div>
