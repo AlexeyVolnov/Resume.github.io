@@ -17,7 +17,7 @@ const [activeLink,setActiveLink] = useState(true)
 
 
   return (
-     <div>
+
        <div className={'flex flex-col gap-10'}>
          <div className={'flex gap-5'}>
            <div onClick={()=>setActiveLink(true)} className={'basis-1/2 select-none'}>
@@ -31,7 +31,7 @@ const [activeLink,setActiveLink] = useState(true)
            {activeLink?<Work/>:<Education/>}
          </div>
        </div>
-     </div>
+
 
 
   )
