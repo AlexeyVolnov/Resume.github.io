@@ -20,7 +20,7 @@ const DateLine: FC<IDateLine> = ({startDate, finalDate}) =>(
         foregroundColor="#ecd4d4"
         className={'svgLoader'}
      >
-       <rect x="20" y="0" rx="0" ry="0" width="3"  height="3300px" />
+       <rect x="20" y="0" rx="0" ry="0" width="3"  height="300px"/>
        <circle cx="22" cy="40" r="6"/>
        <circle cx="22" cy="260" r="6"/>
        <rect width='100' className='rect' opacity={0.1} x='40' y="5" cx="80" cy="50" ry="5" height='60'></rect>

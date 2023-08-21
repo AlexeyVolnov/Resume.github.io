@@ -52,7 +52,12 @@
   display: none;
 }
   .line{
-    width: 30px;
+    display: none;
+  }
+  .work_info{
+    border-left: 3px #666d8f solid;
+    padding-left: 10px;
+    margin-bottom: 5px;
   }
   .category{
    font-size: 19px;
